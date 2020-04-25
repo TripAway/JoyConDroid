@@ -1,84 +1,84 @@
 <resources>
-    <string-array name="questions">
-        <item>Does Joy-Con Droid work on my phone?</item>
-        <item>Can you make Joy-Con Droid work on my phone?</item>
-        <item>Can Joy-Con Droid harm my Nintendo Switch?</item>
-        <item>What should I do if Joy-Con Droid disconnects after leaving Change Grip/Order Screen?</item>
-        <item>What should I do if Joy-Con Droid does not get Pairing Request?</item>
-        <item>What should I do if there is input delay?</item>
-        <item>Does Joy-Con Droid work with all Switch Firmware Versions?</item>
-        <item>How can I get help or request feature/information?</item>
-        <item>How can I add my own UI to the application?</item>
-        <item>Why do you need my MAC address?</item>
-        <item>How do I find my MAC address?</item>
-        <item>How do change/remove MAC address or Never Ask Again decision?</item>
-        <item>Can I join to testing program?</item>
+    <string-array name="Preguntas">
+        <item>¿Joy-Con Droid funcionara en mi telefono?</item>
+        <item>¿Pueden hacer que funcione Joy-Con Droid en mi telefono?</item>
+        <item>¿Joy-Con Droid puede dañar mi Nintendo Switch?</item>
+        <item>¿Que hago si Joy-Con Droid se desconecta despues de salir de la pantalla de "Change Grip/Order"?</item>
+        <item>¿Que hago si Joy-Con Droid no recibe peticiones de emparejamiento?</item>
+        <item>¿Que hago si existe retraso en la entrada del control? (Input delay)?</item>
+        <item>¿Joy-Con Droid funciona con todas las versiones del firmware de Nintendo Switch?</item>
+        <item>¿Como puedo pedir ayuda o sugerir alguna funcion?</item>
+        <item>¿Puedo usar mi propia UI en su aplicacion?</item>
+        <item>¿Porque nececitan mi direccion MAC?</item>
+        <item>¿Donde puedo encontrar mi direccion MAC?</item>
+        <item>¿Como cambio/remuevo la direccion MAC o la opcion de "No volver a preguntar"?</item>
+        <item>¿Me puedo unir a su programa de testeo?</item>
     </string-array>
-    <string-array name="answers">
+    <string-array name="Respuestas">
         <item>
             <![CDATA[
-            This application requires <b>Android 9 (P) or higher</b>. It uses HID profile which some
-            manufacturers did not include in their <b>System Software</b>. You can check device
-            compatibility through <a href="https://play.google.com/store/apps/details?id=com.rdapps.bluetoothhidtester">
+            Esta aplicacion requiere <b>Android 9 (P) o superior</b>. Este software usa perfiles HID que algunos 
+            manufacturadores no incluyen en el<b>software del sistema</b>. Puedes checar la compatibilidad
+            a traves de la aplicacion <a href="https://play.google.com/store/apps/details?id=com.rdapps.bluetoothhidtester">
             Bluetooth HID Profile Tester</a>.
             ]]>
         </item>
         <item>
             <![CDATA[
-            If your system software is missing HID profile; this only can be fixed with <b>System Update</b>
-            which can be only provided by <b>Device Manufacturer</b>. If you definitely want to use this app
-            you can install <a href="https://lineageos.org/">Lineage OS</a>.
+            Si el software del sistema no posee perfiles HID, puede ser necesario una <b>actualizacion del sistema</b>
+            el cual solo puede ser provisto por el <b>manufacturador del dispositivo</b>. Si realmente quiere utilizar este software,
+            puede instalar <a href="https://lineageos.org/">Lineage OS</a>.
             ]]>
         </item>
         <item>
             <![CDATA[
-            <b>Joy-Con Droid</b> is used already by many users and so far did not cause any irreversible errors.
-            Occasionally, Nintendo Switch might crash but resetting the console fixes this problem.
-            However, use <b>Joy-Con Droid</b> application at your own risk. <b>Joy-Con Droid</b> does
-            not come with any guarantees.
+            <b>Joy-Con Droid</b> es utilizado por bastantes usuarios y en ningun caso, ha causado daños irreversibles.
+            Ocasionalmente, la consola Nintendo Switch puede crashear, pero reiniciar la consola soluciona el problema.
+            En todo caso, use la aplicacion <b>Joy-Con Droid</b> bajo su propio riesgo. <b>Joy-Con Droid</b> no viene
+            con ninguna garantia.
             ]]>
         </item>
         <item>
             <![CDATA[
-            "Continuous disconnecting when Change Order/Grip screen is left." is a known issue however
-            there is no known fix for this problem yet. However, there is a workaround:
+            La desconexion producida al salir del menu "Change Order/Grip." es un problema conocido, el cual 
+            todavia no hay una solucion conocida, sin embargo, hay una solucion alternativa.
             <ol>
-                <li>Go to Change Order/Grip Screen.</li>
-                <li>Wait for Bluetooth Pairing Request but <b>DO NOT ACCEPT!</b></li>
-                <li>Go one step back to controller menu.</li>
-                <li>Now accept pairing request.</li>
-                <li>Connection should be established.</li>
+                <li>Ir al menu "Change Order/Grip".</li>
+                <li>Esperar a la peticion de emparejamiento pero <b>¡NO ACEPTE!</b></li>
+                <li>Retroceda al menu de control.</li>
+                <li>Ahora acepte la peticion de emparejamiento.</li>
+                <li>La conexion deberia establecerse.</li>
             </ol>
             ]]>
         </item>
         <item>
             <![CDATA[
-            If <b>Joy-Con Droid</b> does not get pairing request even though you are on <b>Change Order
-            /Grip</b> screen. There is couple of check you need to do. Check if your device has desired
-            device name for bluetooth such as Joy-Con (R), Joy-Con (L), or Pro Controller.
-            If device name is correctly set. Close the application and click notification to kill the
-            service. Go to settings and choose disconnect controllers option on you Nintendo Switch.
-            Turn off the bluetooth. (You might wanna restart your Android Device). Once all these steps
-            are completed. Open the <b>Change Order/Grip</b> screen and open <b>Joy-Con Droid</b> and
-            repeat connection steps.
+            Si<b>Joy-Con Droid</b> no recibe peticiones de emparejamiento, incluso si se encuentra en el menu 
+            <b>Change Order/Grip<b>. Hay algunos pasos que debe realizar. Revise si el nombre de su dispositivo
+            posee el nombre del control deseado como Joy-Con (R), Joy-Con (L), o Pro Controller.
+            Si el nombre del dispositivo esta correctamente colocado. Cierre la aplicacion y fuerce el cierre
+            del servicio en la barra de notificaciones. Vaya a opciones en su Nitendo Switch y seleccione desconectar
+            todos los controles. Apague la conexion bluetooth (Puede requerir reiniciar el dispositivo). Una vez cumplidas 
+            todos los pasos anteriores. Abra el menu <b>"Change Order/Grip</b>", abra <b>Joy-Con Droid</b> y
+            repita los pasos de conexion.
             ]]>
         </item>
         <item>
             <![CDATA[
-            Another known issue is input delay, reconnecting usually fix the input delay issue.
+            Otro problema conocido es el retraso en la entrada (imput delay), reconectarse usualmente soluciona el problema.
             ]]>
         </item>
         <item>
             <![CDATA[
-            <b>Joy-Con Droid</b> tested up to Nintendo Switch Version <b>9.0.0</b>. There is no guarantee
-            <b>Joy-Con Droid</b> will continue you to work on higher versions of Nintendo Switch firmware.
-            Please check <b>Joy-Con Droid</b> to see latest supported version before updating your Nintendo Switch Version
-            firmware.
+            <b>Joy-Con Droid</b> ha sido testeado en consolas Nintendo Switch con version <b>9.0.0</b>. No se puede garantizar que
+            <b>Joy-Con Droid</b> seguira funcionan en versiones mas recientes del firmware de Nintendo Switch.
+            Por favor, antes de actualizar su consola Nintendo Switch, verifique que <b>Joy-Con Droid</b> sea compatible con la version 
+            mas reciente.
             ]]>
         </item>
         <item>
             <![CDATA[
-            There are couple of ways you can reach to the developer:
+            Hay varias formas de contactar al programador:
             <ul>
                 <li><a href="mailto:allplaylive@gmail.com">Email</a></li>
                 <li><a href="https://youtubeplays.com/joycon-droid">Discord</a></li>
@@ -87,41 +87,41 @@
         </item>
         <item>
             <![CDATA[
-            You can check the example project <a href="https://github.com/YouTubePlays/JoyConDroidNESStyleController">NES Style Controller</a>.
-            If wanna develop a similar UI or any useful script contact to the developer.
+            Puede checar el proyecto de ejemplo <a href="https://github.com/YouTubePlays/JoyConDroidNESStyleController">NES Style Controller</a>.
+            Si quiere desarrollar un UI similar o algun script que pueda ser util, puede contactar al desarrollador.
             ]]>
         </item>
         <item>
             <![CDATA[
-            <b>Joy-Con and Pro Controller</b> sends their MAC address to <b>Nintendo Switch</b>. This information is used to reconnect. However,
-            in <b>Android OS</b> it is not possible to access a devices MAC address. User may choose to provide MAC address inorder to
-            improve connection quality.
+            <b>Los Joy-Con y el Pro Controller</b> envian su direccion MAC a la <b>Nintendo Switch</b>. Esta informacion es utilizada para reconectarse.
+            Sin embargo, en <b>Android OS</b> no es posible acceder a las direcciones MAC de los dispositivos. El usuario puede proveer la direccion MAC
+            con el objetivo de mejorar la conexion.
             ]]>
         </item>
         <item>
             <![CDATA[
-            In most devices following steps would be sufficient to find Bluetooth MAC address:
+            En la mayoria de los dispositivos, acceder a la direccion MAC solo requiere seguir los siguientes pasos:
             <ol>
-                <li>From the <b>Home</b> screen, open the app drawer, then open <b>“Settings“</b>.</li>
-                <li>Select <b>“System“</b>. (Skip this step on some models)</li>
-                <li>Scroll down to the bottom and tap <b>“About Phone“, “About device“, or “About tablet“</b>.</li>
-                <li>Scroll down to the bottom and tap <b>“Status“</b>.</li>
-                <li>Scroll down and the <b>“Bluetooth address”</b> will be shown in the list.</li>
+                <li>Desde el <b>menu principal/b>, se abre la lista de aplicaciones, y se abre <b>“Settings“</b>.</li>
+                <li>Seleccione <b>“Sistema“</b>. (En algunos pasos, se puede saltar este paso)</li>
+                <li>Baje y seleccione la opcion <b>“Sobre el telefono/tablet/dispositivo“</b>.</li>
+                <li>Baje y seleccione la opcion<b>“Estado“</b>.</li>
+                <li>Baje hasta ver la opcion <b>“Direccion Bluetooth”</b></li>
             </ol>
             ]]>
         </item>
         <item>
             <![CDATA[
-            If you want to remove or change MAC address entered or simply change Never Ask Again Decision:
-            Open the side menu from top left menu icon and tap <b>Revert Bluetooth Configuration</b>.
+            Si desea remover la direccion MAC ingresada o la opcion "no volver a preguntar":
+            Abra el menu lateral y seleccione la opcion <b>Revertir configuracion Bluetooth</b>.
             ]]>
         </item>
         <item>
             <![CDATA[
-            If you do want to see the latest state of the <b>Joy-Con Droid</b>, you can join the tester group.
-            However, be aware testing group might have more problems time to time and updated frequently.
-            <a href="mailto:allplaylive@gmail.com">Email</a> or join to <a href="https://youtubeplays.com/joycon-droid">Discord</a>
-            for more information.
+            Si quiere probar la version mas reciente de <b>Joy-Con Droid</b>, puede formar parte de nuestro grupo de beta-testers.
+            Advertimos que las versiones de pruebas se actualizan mas seguido y suelen presentar mas problemas frecuentemente.
+            <a href="mailto:allplaylive@gmail.com">Envie un correo </a> o unase a nuestro servidor de <a href="https://youtubeplays.com/joycon-droid">Discord</a>
+            para mas informacion.
             ]]>
         </item>
     </string-array>
